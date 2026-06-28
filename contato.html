@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — Dias &amp; Kanzler</title>
+  <meta name="description" content="Entre em contato com a Dias & Kanzler. Solicite orçamentos, tire dúvidas ou agende uma visita.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+          <a href="index.html" class="logo"><img src="img/logo.png" alt="Dias &amp; Kanzler"></a>
+      <nav>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-overlay"></div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pocos.html">Poços</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container fade-in">
+      <h1>Contato</h1>
+      <p>Estamos prontos para atender você</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-form-card fade-in">
+          <h3>Envie sua mensagem</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa">
+              </div>
+              <div class="form-group">
+                <label for="contato">Pessoa de Contato</label>
+                <input type="text" id="contato" name="contato" placeholder="Seu nome">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(47) 99999-9999">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="interesse">Área de Interesse</label>
+              <select id="interesse" name="interesse">
+                <option value="">Selecione...</option>
+                <option value="OUTORGA">Outorga</option>
+                <option value="TAMPONAMENTO">Tamponamento</option>
+                <option value="TRATAMENTO">Tratamento</option>
+                <option value="MONITORAMENTO">Monitoramento</option>
+                <option value="OUTROS">Outros</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" required placeholder="Deixe sua mensagem..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent" style="width: 100%; justify-content: center;">Enviar Contato</button>
+          </form>
+        </div>
+
+        <div class="contact-cards fade-in">
+          <div class="contact-card">
+            <div class="contact-card-icon">&#x1F4DE;</div>
+            <div>
+              <h4>Telefone</h4>
+              <div class="value">(47) 3026-2060</div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">&#x1F4F1;</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <div class="value"><a href="https://wa.me/5547999017517" target="_blank">(47) 99901-7517</a></div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">&#x1F4F1;</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <div class="value"><a href="https://wa.me/5547999448080" target="_blank">(47) 99944-8080</a></div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">&#x1F4E7;</div>
+            <div>
+              <h4>E-mail</h4>
+              <div class="value"><a href="mailto:diaskanzler@hotmail.com">diaskanzler@hotmail.com</a></div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">&#x1F4E7;</div>
+            <div>
+              <h4>E-mail</h4>
+              <div class="value"><a href="mailto:atendimento@diaskanzler.com.br">atendimento@diaskanzler.com.br</a></div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">&#x1F4CD;</div>
+            <div>
+              <h4>Endereço</h4>
+              <div class="value">Rua Águia, 210 — Costa e Silva<br>Joinville, SC — CEP 89220-140</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-wrapper fade-in">
+        <iframe src="https://www.google.com/maps?q=Rua+Agua+210+Joinville+SC&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container fade-in">
+      <h2>Precisa de ajuda?</h2>
+      <p>Estamos prontos para atender você. Entre em contato agora mesmo!</p>
+      <a href="https://wa.me/5547999017517" target="_blank" class="btn btn-primary">Fale pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+      <a href="index.html" class="logo"><img src="img/logo.png" alt="Dias &amp; Kanzler"></a>
+          <p>Soluções em recursos hídricos subterrâneos. Experiência e compromisso com a gestão sustentável da água em Santa Catarina.</p>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="pocos.html">Poços</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <div class="footer-contact-item">(47) 3026-2060</div>
+          <div class="footer-contact-item">(47) 99901-7517</div>
+          <div class="footer-contact-item">atendimento@diaskanzler.com.br</div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Dias &amp; Kanzler</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5547999017517" target="_blank" class="whatsapp-float" aria-label="WhatsApp">&#x1F4AC;</a>
+
+  <script src="js/main.js"></script>
+  <script src="js/contato.js"></script>
+</body>
+</html>
